@@ -26,3 +26,6 @@ for d in data:
 		good.append(d)
 print('一共有',len(good), '筆資料提到good')
 print(good[0])
+
+good = [d for d in data if 'good' in d]
+print('一共有',len(good), '筆資料提到good')
